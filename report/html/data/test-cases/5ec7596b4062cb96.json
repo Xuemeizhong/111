@@ -1,0 +1,96 @@
+{
+  "uid" : "5ec7596b4062cb96",
+  "name" : "新品测量-获取币种",
+  "fullName" : "case.test_new_product_measure.TestNewProductMeasure#test_currency",
+  "historyId" : "6a83aa8518f87e54e0798746c1da4e62",
+  "time" : {
+    "start" : 1568702612627,
+    "stop" : 1568702612756,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702603792,
+      "stop" : 1568702604779,
+      "duration" : 987
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1a4ff85289b6de8",
+      "name" : "log",
+      "source" : "b1a4ff85289b6de8.txt",
+      "type" : "text/plain",
+      "size" : 699
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新品测量"
+  }, {
+    "name" : "tag",
+    "value" : "新品测量-ARN作业单状态"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_product_measure"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewProductMeasure"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "1212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_new_product_measure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "currency",
+    "value" : "{'caseNum': 'get_currency_001', 'title': '新品测量-获取币种', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/currency/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'name': 'Australian Dollar rates'}, 'response': None}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "新品测量-ARN作业单状态" ]
+  },
+  "source" : "5ec7596b4062cb96.json",
+  "parameterValues" : [ "{'caseNum': 'get_currency_001', 'title': '新品测量-获取币种', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/currency/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'name': 'Australian Dollar rates'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "4e9895c604643b9a",
+  "name" : "获取项目",
+  "fullName" : "case.test_base.TestBase#test_base_gain_current_pro",
+  "historyId" : "587a32374e7670928b72a4773dfde799",
+  "time" : {
+    "start" : 1568702062953,
+    "stop" : 1568702063062,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702057519,
+      "stop" : 1568702058843,
+      "duration" : 1324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e6735cf6df3b098",
+      "name" : "log",
+      "source" : "9e6735cf6df3b098.txt",
+      "type" : "text/plain",
+      "size" : 665
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取系统枚举"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBase"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "10672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'current_query_of_pro', 'title': '获取项目', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/project/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e9895c604643b9a.json",
+  "parameterValues" : [ "{'caseNum': 'current_query_of_pro', 'title': '获取项目', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/project/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

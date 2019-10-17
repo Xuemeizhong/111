@@ -1,0 +1,96 @@
+{
+  "uid" : "4b602e6f67a397b8",
+  "name" : "新品测量-获取存储分类",
+  "fullName" : "case.test_new_product_measure.TestNewProductMeasure#test_storage_type",
+  "historyId" : "8ed90e9757af351279ab809bd2197873",
+  "time" : {
+    "start" : 1568702503144,
+    "stop" : 1568702503263,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702493934,
+      "stop" : 1568702494623,
+      "duration" : 689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9142ce93fb90db5b",
+      "name" : "log",
+      "source" : "9142ce93fb90db5b.txt",
+      "type" : "text/plain",
+      "size" : 775
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新品测量"
+  }, {
+    "name" : "tag",
+    "value" : "新品测量-ARN作业单状态"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_product_measure"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewProductMeasure"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "5376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_new_product_measure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  }, {
+    "name" : "storage_type",
+    "value" : "{'caseNum': 'get_storage_type_001', 'title': '新品测量-获取存储分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/data-dict/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'dataType': 'ITEM_STORE_TYPE'}, 'assert': {'dataValue': '母婴用品'}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "新品测量-ARN作业单状态" ]
+  },
+  "source" : "4b602e6f67a397b8.json",
+  "parameterValues" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_storage_type_001', 'title': '新品测量-获取存储分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/data-dict/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'dataType': 'ITEM_STORE_TYPE'}, 'assert': {'dataValue': '母婴用品'}, 'response': None}" ]
+}

@@ -1,0 +1,20 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'sys_enum_query_002', 'title': '获取状态列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsArnStatus'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/enum/list?local=zh&enumType=WmsArnStatus HTTP/1.1" 200 578
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'sys_enum_query_003', 'title': '获取上架状态列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsArnShelvesStauts'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/enum/list?local=zh&enumType=WmsArnShelvesStauts HTTP/1.1" 200 341
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'current_query_of_org', 'title': '获取委托方', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/business-org/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/business-org/current?warehouseId=1040 HTTP/1.1" 200 1692
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'current_query_of_pro', 'title': '获取项目', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/project/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/project/current?warehouseId=1040 HTTP/1.1" 200 1733
+[32mINFO    [0m root:send_all.py:14 请求方式：post
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/json;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'arn_list_of_filter_002', 'title': 'ARN管理-高级查询-根据条件查询', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': 'WAR190828000001', 'planStartArruveTime': None, 'planEndArruveTime': None, 'status': 'ACTIVE', 'putawayStatus': 'PUTAWAY', 'businessOrgid': 4068, 'projectId': 4382, 'customerBillType': None, 'customerBillCode': None, 'relatedOrderCode': None, 'carrier': None, 'driver': None, 'desciption': None}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 42

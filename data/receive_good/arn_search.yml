@@ -1,0 +1,42 @@
+#arn管理
+search_list:
+  - caseNum: arn_search_list_001
+    title: 获取ARN选择列表
+    method: post
+    host: ${host}
+    url: ${arn_search}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      current: 1
+      size: 20
+      #仓库编码
+      warehouseId: ${code}
+    data:
+      arnCode: ~
+      type: 2
+
+arn_receive:
+  - caseNum: arn_receive_001
+    title: 根据ARN单号查询
+    method: get
+    host: ${host}
+    url: ${register_arn_boole}  #arn_query 同一个接口
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      arnCode: '#arnCode'
+      #仓库编码
+      warehouseId: ${code}
+  
+  - caseNum: arn_receive_002
+    title: 根据ARN单号查询
+    method: get
+    host: ${host}
+    url: ${register_arn_boole}  #arn_query 同一个接口
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      arnCode: '2019-10-08-15-14'
+      #仓库编码
+      warehouseId: ${code}

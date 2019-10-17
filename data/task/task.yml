@@ -1,0 +1,53 @@
+type:
+  - caseNum: tasl_type_001
+    title: 获取任务类型
+    method: get
+    host: ${host}
+    url: ${sys_enum}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      enumType: WmsTaskType
+
+
+list:
+  - caseNum: task_list_001
+    title: 获取任务列表
+    method: post
+    host: ${host}
+    url: ${task_list}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      currentPage: 1
+      size: 20
+      #仓库编码
+      warehouseId: ${code}
+      #工作区
+      workAreaId: ""
+    data:
+      type: ~
+      taskBillCode: ~
+      customerCode: ~
+      itemBarCode: ~
+
+  - caseNum: task_list_002
+    title: 获取任务列表-根据类型查找
+    method: post
+    host: ${host}
+    url: ${task_list}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      currentPage: 1
+      size: 20
+      #仓库编码
+      warehouseId: ${code}
+      #工作区
+      workAreaId: ""
+    data:
+      type: 库内移位
+      taskBillCode: ~
+      customerCode: ~
+      itemBarCode: ~
+

@@ -1,0 +1,138 @@
+{
+  "uid" : "503aeda0cecafaba",
+  "name" : "获取site站点",
+  "fullName" : "case.test_home.TestHome#test_home_site",
+  "historyId" : "abb2b6ac2dcaf69a0e9abbc5862912ad",
+  "time" : {
+    "start" : 1568770987305,
+    "stop" : 1568770987381,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770986062,
+      "stop" : 1568770986586,
+      "duration" : 524
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ca59dce806947970",
+      "name" : "log",
+      "source" : "ca59dce806947970.txt",
+      "type" : "text/plain",
+      "size" : 688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "site"
+  }, {
+    "name" : "feature",
+    "value" : "获取站点"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "1056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'site_list_001', 'title': '获取站点信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/sit/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f93c4aef262c78db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568770921175,
+        "stop" : 1568770921263,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "6bfa5c6d4ecc18d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568703024456,
+        "stop" : 1568703024740,
+        "duration" : 284
+      }
+    }, {
+      "uid" : "51bf44c89665a9e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702609262,
+        "stop" : 1568702609556,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "6e3cfb4dd40e9bc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702500314,
+        "stop" : 1568702500583,
+        "duration" : 269
+      }
+    }, {
+      "uid" : "6032f3a87dd7c1f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702063199,
+        "stop" : 1568702063389,
+        "duration" : 190
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "site" ]
+  },
+  "source" : "503aeda0cecafaba.json",
+  "parameterValues" : [ "{'caseNum': 'site_list_001', 'title': '获取站点信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/sit/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

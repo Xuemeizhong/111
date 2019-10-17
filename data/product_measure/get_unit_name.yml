@@ -1,0 +1,14 @@
+unit_name:
+  -
+    caseNum: get_unit_name_001
+    title: 新品测量-获取单位名称
+    method: get
+    host: ${host}
+    url: ${get_unit_name}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      enumType: PackageUnitType
+    assert:
+      enumName: Bag
+    response:

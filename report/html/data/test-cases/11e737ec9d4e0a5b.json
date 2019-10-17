@@ -1,0 +1,79 @@
+{
+  "uid" : "11e737ec9d4e0a5b",
+  "name" : "登录功能",
+  "fullName" : "case.test_login.TestLogin#test_login_success",
+  "historyId" : "859e0c5c167a751f94cf1ad43536e837",
+  "time" : {
+    "start" : 1568702609925,
+    "stop" : 1568702609925,
+    "duration" : 0
+  },
+  "description" : "\n            登录接口测试案例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>        登录接口测试案例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702603792,
+      "stop" : 1568702604779,
+      "duration" : 987
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "登录PDA"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "1212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "登录PDA" ]
+  },
+  "source" : "11e737ec9d4e0a5b.json",
+  "parameterValues" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

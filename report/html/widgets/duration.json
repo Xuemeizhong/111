@@ -1,0 +1,401 @@
+[ {
+  "uid" : "a5ec58b504847fae",
+  "name" : "获取任务类型",
+  "time" : {
+    "start" : 1568770987156,
+    "stop" : 1568770987208,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7bb1af121d5cce9",
+  "name" : "获取任务列表&&条件查询",
+  "time" : {
+    "start" : 1568770989058,
+    "stop" : 1568770989203,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4caea8fb5814bed8",
+  "name" : "获取任务类型",
+  "time" : {
+    "start" : 1568770988260,
+    "stop" : 1568770988309,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8512730d06ce3e10",
+  "name" : "获取任务列表&&条件查询",
+  "time" : {
+    "start" : 1568770988097,
+    "stop" : 1568770988254,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc8f0b2ce6013ecc",
+  "name" : "获取所有ARN单",
+  "time" : {
+    "start" : 1568770986651,
+    "stop" : 1568770987139,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50efbbc45beacf60",
+  "name" : "获取项目",
+  "time" : {
+    "start" : 1568770987239,
+    "stop" : 1568770987295,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "503aeda0cecafaba",
+  "name" : "获取site站点",
+  "time" : {
+    "start" : 1568770987305,
+    "stop" : 1568770987381,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aad20988be69856b",
+  "name" : "新品测量-提交货品名称ZXCVB，提交成功",
+  "time" : {
+    "start" : 1568770987817,
+    "stop" : 1568770988083,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f82e43b50fe2d19",
+  "name" : "查询容器类型",
+  "time" : {
+    "start" : 1568770987216,
+    "stop" : 1568770987270,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "789c0825be111859",
+  "name" : "根据ARN单号获取数据",
+  "time" : {
+    "start" : 1570521427496,
+    "stop" : 1570521428074,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ef4f74ce80d4ba4",
+  "name" : "ARN高级查询-条件组合查询",
+  "time" : {
+    "start" : 1568770986663,
+    "stop" : 1568770987233,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93d5ce4abe96d382",
+  "name" : "根据任务类型过滤任务列表",
+  "time" : {
+    "start" : 1568770988272,
+    "stop" : 1568770988393,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e022489efd5b1de2",
+  "name" : "获取数据字典",
+  "time" : {
+    "start" : 1568770987306,
+    "stop" : 1568770987360,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26b4c4dd13468f25",
+  "name" : "新品测量-提交货品名称sy002，提交成功",
+  "time" : {
+    "start" : 1568770988088,
+    "stop" : 1568770988245,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4b070e0dee15c3",
+  "name" : "ARN单可操作业务",
+  "time" : {
+    "start" : 1568770986729,
+    "stop" : 1568770986990,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecbc0a489d9dc5c0",
+  "name" : "新品测量-获取货品分类",
+  "time" : {
+    "start" : 1568770987567,
+    "stop" : 1568770987640,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e94f3fb688a58be",
+  "name" : "新品测量-获取单位级别",
+  "time" : {
+    "start" : 1568770987494,
+    "stop" : 1568770987554,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0c9fdd55dafc241",
+  "name" : "获取所有ARN单",
+  "time" : {
+    "start" : 1568770986624,
+    "stop" : 1568770987141,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f82d908a0cf4a",
+  "name" : "获取单位级别",
+  "time" : {
+    "start" : 1568770988181,
+    "stop" : 1568770988238,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f59932b6e9d2305",
+  "name" : "获取件型",
+  "time" : {
+    "start" : 1568770987076,
+    "stop" : 1568770987137,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a97c9a5b3bf25c8",
+  "name" : "根据ARN单查询",
+  "time" : {
+    "start" : 1568770986623,
+    "stop" : 1568770986709,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7003d301f35ea646",
+  "name" : "新品测量-获取批次跟踪属性",
+  "time" : {
+    "start" : 1568770987745,
+    "stop" : 1568770987804,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5809a1f6ef33623",
+  "name" : "新品测量-获取件型",
+  "time" : {
+    "start" : 1568770987494,
+    "stop" : 1568770987555,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb5d9146a629afc1",
+  "name" : "新品测量-获取存储分类",
+  "time" : {
+    "start" : 1568770987570,
+    "stop" : 1568770987639,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd19889b4ae3375",
+  "name" : "新品测量-获取币种",
+  "time" : {
+    "start" : 1568770987650,
+    "stop" : 1568770987730,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8a6d8a902cf5e34",
+  "name" : "获取主菜单",
+  "time" : {
+    "start" : 1568770987395,
+    "stop" : 1568770987478,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ee5ff89b81ddc5",
+  "name" : "获取物流类型",
+  "time" : {
+    "start" : 1568770987004,
+    "stop" : 1568770987064,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c000a1463792675d",
+  "name" : "获取仓库",
+  "time" : {
+    "start" : 1568770987365,
+    "stop" : 1568770987433,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a6ee3b24470de89",
+  "name" : "获取上架状态列表",
+  "time" : {
+    "start" : 1568770987245,
+    "stop" : 1568770987294,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7723614eb4c81586",
+  "name" : "根据任务类型过滤任务列表",
+  "time" : {
+    "start" : 1568770988254,
+    "stop" : 1568770988382,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b96cb74f08b02a91",
+  "name" : "获取状态列表",
+  "time" : {
+    "start" : 1568770987177,
+    "stop" : 1568770987228,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fcb938c2bc35840",
+  "name" : "新品测量-保存包装单位",
+  "time" : {
+    "start" : 1568770987748,
+    "stop" : 1568770988076,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1379cad2c7c132e",
+  "name" : "新品测量-获取单位名称",
+  "time" : {
+    "start" : 1568770987932,
+    "stop" : 1568770989046,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5fdd42c04e6297c",
+  "name" : "新品测量-获取物流类型",
+  "time" : {
+    "start" : 1568770987653,
+    "stop" : 1568770987729,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b5c661409501a75",
+  "name" : "获取获取委托方",
+  "time" : {
+    "start" : 1568770987282,
+    "stop" : 1568770987350,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f1b5cb3d17bfd1f",
+  "name" : "根据itemId获取货品信息",
+  "time" : {
+    "start" : 1568770987392,
+    "stop" : 1568770987478,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9351004f53d29da1",
+  "name" : "登录功能",
+  "time" : {
+    "start" : 1568770987376,
+    "stop" : 1568770987376,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a03f70377c02313",
+  "name" : "通过货品条码获取料五项",
+  "time" : {
+    "start" : 1568770987444,
+    "stop" : 1568770987917,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc8abedb4ce1a0e8",
+  "name" : "获取单位名称",
+  "time" : {
+    "start" : 1568770987150,
+    "stop" : 1568770988163,
+    "duration" : 1013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da06e6c7be658653",
+  "name" : "根据ARN单查询",
+  "time" : {
+    "start" : 1568770986589,
+    "stop" : 1568770986651,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

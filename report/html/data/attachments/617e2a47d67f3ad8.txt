@@ -1,0 +1,5 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'get_goods_type_001', 'title': '新品测量-获取货品分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/item-type/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'itemCodingSystemId': 3180}, 'assert': {'name': '家电'}, 'response': None}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/item-type/list?itemCodingSystemId=3180 HTTP/1.1" 200 280
+[32mINFO    [0m root:logger.py:31 接口响应返回结果：{'code': 1, 'data': [{'code': 'A01', 'id': 1660, 'name': '家电'}, {'code': 'A02', 'id': 1780, 'name': '百货'}, {'code': 'A03', 'id': 1781, 'name': '家具'}, {'code': 'A04', 'id': 1782, 'name': '化学品'}], 'message': ''}

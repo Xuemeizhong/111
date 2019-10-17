@@ -1,0 +1,14 @@
+logistics_type:
+  -
+    caseNum: get_logistics_type_001
+    title: 新品测量-获取存储分类
+    method: get
+    host: ${host}
+    url: ${get_logistics_type}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      enumType: ItemLogisticsType
+    assert:
+      enumName: 普通
+    response:

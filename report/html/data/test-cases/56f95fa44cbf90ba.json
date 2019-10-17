@@ -1,0 +1,93 @@
+{
+  "uid" : "56f95fa44cbf90ba",
+  "name" : "获取任务类型",
+  "fullName" : "case.test_base.TestBase#test_base_gain_WmsTaskType",
+  "historyId" : "c70e1e3a5c2255ee9c3413a988096267",
+  "time" : {
+    "start" : 1568702061239,
+    "stop" : 1568702061328,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702057519,
+      "stop" : 1568702058843,
+      "duration" : 1324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e50de4b4a350bdf",
+      "name" : "log",
+      "source" : "e50de4b4a350bdf.txt",
+      "type" : "text/plain",
+      "size" : 688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取系统枚举"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBase"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "10672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'sys_enum_query_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsTaskType'}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56f95fa44cbf90ba.json",
+  "parameterValues" : [ "{'caseNum': 'sys_enum_query_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsTaskType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

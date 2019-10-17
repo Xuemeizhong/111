@@ -1,0 +1,15 @@
+unit_level:
+  -
+    caseNum: get_unit_level_001
+    title: 新品测量-获取单位级别
+    method: get
+    host: ${host}
+    url: ${get_unit_level}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      enumType: PackageUnitLevel
+
+    assert:
+      enumName: 箱
+    response:

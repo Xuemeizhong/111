@@ -1,0 +1,4 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'get_five_items_001', 'title': '根据货品/包装条码获取料五项信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/item/material', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'itemBarCode': 123456}, 'assert': {'code': 200, 'itemCode': 123456, 'codingSystemName': '正达-烟台'}, 'response': None}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/item/material?itemBarCode=123456 HTTP/1.1" 200 4240

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：POST
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/json;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'POST', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'warehouseId': '1040'}, 'assert': {'code': 200}, 'response': None}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12053

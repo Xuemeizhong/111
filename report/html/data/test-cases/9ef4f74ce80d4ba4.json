@@ -1,0 +1,138 @@
+{
+  "uid" : "9ef4f74ce80d4ba4",
+  "name" : "ARN高级查询-条件组合查询",
+  "fullName" : "case.test_arn_manager.TestArnManager#test_arn_manager_query_of_filter",
+  "historyId" : "1523d64a8bdd6ed179b425c1713c6b67",
+  "time" : {
+    "start" : 1568770986663,
+    "stop" : 1568770987233,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770986062,
+      "stop" : 1568770986586,
+      "duration" : 524
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "39c956611188826c",
+      "name" : "log",
+      "source" : "39c956611188826c.txt",
+      "type" : "text/plain",
+      "size" : 3763
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ARN模块"
+  }, {
+    "name" : "tag",
+    "value" : "ARN管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_arn_manager"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArnManager"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "1056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_arn_manager"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'arn_list_of_filter_002', 'title': 'ARN管理-高级查询-根据条件查询', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': 'WAR190828000001', 'planStartArruveTime': None, 'planEndArruveTime': None, 'status': '生效', 'putawayStatus': '上架中', 'businessOrgid': '烟台飞虎乐购信息有限公司', 'projectId': '飞虎乐购', 'customerBillType': None, 'customerBillCode': None, 'relatedOrderCode': None, 'carrier': None, 'driver': None, 'desciption': None}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb63c26364a9085",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568770919057,
+        "stop" : 1568770919449,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "30ef0687fddfe0a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568703021722,
+        "stop" : 1568703022247,
+        "duration" : 525
+      }
+    }, {
+      "uid" : "121efcaa2799276a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702606139,
+        "stop" : 1568702606767,
+        "duration" : 628
+      }
+    }, {
+      "uid" : "b94245175d0ad931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702497538,
+        "stop" : 1568702498009,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "2ea64d6b4adfe847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702060435,
+        "stop" : 1568702060971,
+        "duration" : 536
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ARN管理" ]
+  },
+  "source" : "9ef4f74ce80d4ba4.json",
+  "parameterValues" : [ "{'caseNum': 'arn_list_of_filter_002', 'title': 'ARN管理-高级查询-根据条件查询', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': 'WAR190828000001', 'planStartArruveTime': None, 'planEndArruveTime': None, 'status': '生效', 'putawayStatus': '上架中', 'businessOrgid': '烟台飞虎乐购信息有限公司', 'projectId': '飞虎乐购', 'customerBillType': None, 'customerBillCode': None, 'relatedOrderCode': None, 'carrier': None, 'driver': None, 'desciption': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

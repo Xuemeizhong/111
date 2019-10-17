@@ -1,0 +1,93 @@
+{
+  "uid" : "7a7c5bb53000d51f",
+  "name" : "获取任务列表&&条件查询",
+  "fullName" : "case.test_task.TestTask#test_task_list",
+  "historyId" : "e388ce8a369e809347fbe249d2d15bbc",
+  "time" : {
+    "start" : 1568703027971,
+    "stop" : 1568703028173,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568703018208,
+      "stop" : 1568703018852,
+      "duration" : 644
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "548fdc7f950e1478",
+      "name" : "log",
+      "source" : "548fdc7f950e1478.txt",
+      "type" : "text/plain",
+      "size" : 1515
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "任务模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_task"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTask"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "4488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'task_list_002', 'title': '获取任务列表-根据类型查找', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': '库内移位', 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a7c5bb53000d51f.json",
+  "parameterValues" : [ "{'caseNum': 'task_list_002', 'title': '获取任务列表-根据类型查找', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': '库内移位', 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "7d520f5fb90cde0c",
+  "name" : "新品测量-获取件型",
+  "fullName" : "case.test_new_product_measure.TestNewProductMeasure#test_get_part",
+  "historyId" : "6ead9c42220c0c1823857ad6e20a63f6",
+  "time" : {
+    "start" : 1568702502101,
+    "stop" : 1568702502156,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702493934,
+      "stop" : 1568702494623,
+      "duration" : 689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eebcc81b38bae515",
+      "name" : "log",
+      "source" : "eebcc81b38bae515.txt",
+      "type" : "text/plain",
+      "size" : 736
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新品测量"
+  }, {
+    "name" : "tag",
+    "value" : "新品测量-ARN作业单状态"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_product_measure"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewProductMeasure"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "5376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_new_product_measure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  }, {
+    "name" : "part_type",
+    "value" : "{'caseNum': 'get_part_type_001', 'title': '新品测量-获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'PieceType'}, 'assert': {'enumName': '大件'}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "新品测量-ARN作业单状态" ]
+  },
+  "source" : "7d520f5fb90cde0c.json",
+  "parameterValues" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_part_type_001', 'title': '新品测量-获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'PieceType'}, 'assert': {'enumName': '大件'}, 'response': None}" ]
+}

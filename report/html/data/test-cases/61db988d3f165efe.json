@@ -1,0 +1,96 @@
+{
+  "uid" : "61db988d3f165efe",
+  "name" : "新品测量-提交货品名称sy002，提交成功",
+  "fullName" : "case.test_new_product_measure.TestNewProductMeasure#test_measure_new_item_002",
+  "historyId" : "fd112e3a37311514393f227a229cecaa",
+  "time" : {
+    "start" : 1568770924976,
+    "stop" : 1568770925166,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770917245,
+      "stop" : 1568770917842,
+      "duration" : 597
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f28130242037355e",
+      "name" : "log",
+      "source" : "f28130242037355e.txt",
+      "type" : "text/plain",
+      "size" : 1447
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "新品测量-ARN作业单状态"
+  }, {
+    "name" : "feature",
+    "value" : "新品测量"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_new_product_measure"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewProductMeasure"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "4056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_new_product_measure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  }, {
+    "name" : "measure_new_item",
+    "value" : "{'caseNum': 'measure_new_item_001', 'title': '新品测量-提交,货品名称为sy002的货品，提交成功', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/measure-new-item', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'id': 82384, 'name': 'sy002', 'enName': None, 'brand': None, 'spec': None, 'itemTypeId': 1660, 'storageType': '母婴用品', 'logisticType': '普通', 'goodsValue': 200, 'currencyId': 100, 'taxRate': '80%', 'hsCode': 'QWERT,', 'snControl': False, 'snVerifyExpr': None, 'snControlExpr': None, 'validPeriodDays': 7, 'alertLeadingDays': 7, 'lotTrackingInfoId': 1360, 'virtualItemCoding': False, 'beWholePackageShipping': False, 'beCustomsBroker': False, 'beBom': True, 'newItem': False, 'supplierName': 123456, 'supplierCoding': 'ZXCVB,', 'codingSystemName': '烟台飞虎乐购-料号体系', 'customerName': '0104-X', 'customerCoding': 'BN180A29'}, 'assert': {'code': 1}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "新品测量-ARN作业单状态" ]
+  },
+  "source" : "61db988d3f165efe.json",
+  "parameterValues" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'measure_new_item_001', 'title': '新品测量-提交,货品名称为sy002的货品，提交成功', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/measure-new-item', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'id': 82384, 'name': 'sy002', 'enName': None, 'brand': None, 'spec': None, 'itemTypeId': 1660, 'storageType': '母婴用品', 'logisticType': '普通', 'goodsValue': 200, 'currencyId': 100, 'taxRate': '80%', 'hsCode': 'QWERT,', 'snControl': False, 'snVerifyExpr': None, 'snControlExpr': None, 'validPeriodDays': 7, 'alertLeadingDays': 7, 'lotTrackingInfoId': 1360, 'virtualItemCoding': False, 'beWholePackageShipping': False, 'beCustomsBroker': False, 'beBom': True, 'newItem': False, 'supplierName': 123456, 'supplierCoding': 'ZXCVB,', 'codingSystemName': '烟台飞虎乐购-料号体系', 'customerName': '0104-X', 'customerCoding': 'BN180A29'}, 'assert': {'code': 1}, 'response': None}" ]
+}

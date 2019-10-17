@@ -1,0 +1,15 @@
+goods_info:
+  -
+    caseNum: get_goods_info_001
+    title: 根据itemId获取货品信息
+    method: get
+    host: ${host}
+    url: ${get_goods_info}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      warehouseId: 1040
+      itemId: 43067
+    assert:
+      storageType: 服饰鞋靴
+    response:

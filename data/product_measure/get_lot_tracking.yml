@@ -1,0 +1,13 @@
+lot_tracking:
+  -
+    caseNum: get_lot_tracking_001
+    title: 新品测量-获取批次跟踪属性
+    method: get
+    host: ${host}
+    url: ${get_lot_tracking}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+    assert:
+      name: 飞虎颜色
+    response:

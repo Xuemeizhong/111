@@ -1,0 +1,135 @@
+{
+  "uid" : "9f59932b6e9d2305",
+  "name" : "获取件型",
+  "fullName" : "case.test_base.TestBase#test_base_gain_PieceType",
+  "historyId" : "e7694224e3a0d0bea5950391669d7d0f",
+  "time" : {
+    "start" : 1568770987076,
+    "stop" : 1568770987137,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770986063,
+      "stop" : 1568770986619,
+      "duration" : 556
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a01260a0e16badd4",
+      "name" : "log",
+      "source" : "a01260a0e16badd4.txt",
+      "type" : "text/plain",
+      "size" : 678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取系统枚举"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBase"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "6276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'sys_enum_query_005', 'title': '获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'PieceType'}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95bbf660496fc28e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568770919874,
+        "stop" : 1568770919932,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "c2759434de2453fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568703022820,
+        "stop" : 1568703022883,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "12b036838f9a80c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702607394,
+        "stop" : 1568702607450,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "c0b3c1698111726a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702498649,
+        "stop" : 1568702498711,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "fcf7a93d1b84d64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702061594,
+        "stop" : 1568702061655,
+        "duration" : 61
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f59932b6e9d2305.json",
+  "parameterValues" : [ "{'caseNum': 'sys_enum_query_005', 'title': '获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'PieceType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

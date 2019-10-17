@@ -1,0 +1,17 @@
+-
+#login_case_001:
+  name: 登录pda
+  method: post
+  host: ${host}
+  url: ${login}
+  headers:
+    Content-Type: application/json;charset=utf-8
+  parameters:
+    local: zh
+  data:
+    username: lonel
+    pwd: 1
+
+  assert:
+    code: 200
+  response: ~

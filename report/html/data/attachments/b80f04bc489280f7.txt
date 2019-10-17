@@ -1,0 +1,4 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'data_dict_001', 'title': '获取存储分类列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/data-dict/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'dataType': 'ITEM_STORE_TYPE'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/data-dict/list?local=zh&dataType=ITEM_STORE_TYPE HTTP/1.1" 200 6351

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/json;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'arn_query_case_002', 'title': '根据ARN号查询ARN信息-仓库不存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': 104000, 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN单号不存在'}, 'response': None}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60

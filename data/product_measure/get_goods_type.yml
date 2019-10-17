@@ -1,0 +1,14 @@
+goods_type:
+  -
+    caseNum: get_goods_type_001
+    title: 新品测量-获取货品分类
+    method: get
+    host: ${host}
+    url: ${get_goods_type}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      itemCodingSystemId: 3180
+    assert:
+      name: 家电
+    response:

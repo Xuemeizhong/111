@@ -1,0 +1,614 @@
+2019-09-06 14:08:18,084 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 14:08:18,637 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:08:18,651 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:08:18,651 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:08:18,806 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:08:18,808 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:08:18,808 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:08:18,876 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:08:18,881 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:08:18,881 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '79685F826F852DDB8FD1101FF0EEA848'}, 'message': ''}
+
+2019-09-06 14:14:21,022 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 14:14:21,775 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:14:21,780 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:21,780 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:21,849 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=1040&arnCode=WAR190828000001 HTTP/1.1" 200 63
+2019-09-06 14:14:21,922 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:14:21,924 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:21,924 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:22,002 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 14:14:22,159 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:14:22,161 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:22,161 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:23,798 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12053
+2019-09-06 14:14:23,868 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:14:23,871 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:23,871 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:23,983 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12053
+2019-09-06 14:14:24,054 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:14:24,056 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:14:24,056 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3DE9C0C00BA24887A59910D0636D2980'}, 'message': ''}
+
+2019-09-06 14:27:55,788 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 14:27:56,373 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:27:56,386 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:56,386 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:56,449 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=1040&arnCode=WAR190828000001 HTTP/1.1" 200 63
+2019-09-06 14:27:56,530 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:27:56,533 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:56,533 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:56,616 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 14:27:56,755 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:27:56,758 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:56,758 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:57,105 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12053
+2019-09-06 14:27:57,171 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:27:57,173 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:57,173 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:57,275 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12053
+2019-09-06 14:27:57,352 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 14:27:57,354 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 14:27:57,354 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F6B1DCBAAF1A8175488F646E9798A481'}, 'message': ''}
+
+2019-09-06 16:57:21,918 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 16:57:22,650 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:22,658 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,658 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,818 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:22,828 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,828 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,911 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:22,918 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,918 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,984 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:22,989 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:22,989 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,058 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:23,064 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,064 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,138 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:23,140 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,140 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,213 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:23,215 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,215 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,286 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:57:23,287 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:57:23,287 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '3CAD62C4C83D42B8EC9A44F31A7B478F'}, 'message': ''}
+
+2019-09-06 16:59:00,916 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 16:59:01,580 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:01,583 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:01,583 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:01,650 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=1040&arnCode=WAR190828000001 HTTP/1.1" 200 63
+2019-09-06 16:59:01,709 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:01,715 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:01,715 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:01,786 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 16:59:01,940 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:01,946 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:01,946 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,013 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 16:59:02,076 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:02,083 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,083 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,152 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 16:59:02,209 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:02,211 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,211 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,282 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?warehouseId=104000&arnCode=WAR190828000001 HTTP/1.1" 200 60
+2019-09-06 16:59:02,346 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:02,355 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,355 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,638 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12054
+2019-09-06 16:59:02,700 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:02,708 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,708 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,810 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12054
+2019-09-06 16:59:02,876 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 16:59:02,886 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 16:59:02,886 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '0FA968FED13547F9C325BF8782F90A83'}, 'message': ''}
+
+2019-09-06 17:03:48,743 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 17:03:49,365 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,372 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,372 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,512 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,518 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,518 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,595 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,602 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,602 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,669 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,675 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,675 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,737 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,743 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,743 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,809 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,812 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,812 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,878 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,880 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,880 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,946 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:03:49,947 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:03:49,947 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': '1F32EF6F14AE9CF76C0D237FC509230A'}, 'message': ''}
+
+2019-09-06 17:04:53,001 - connectionpool.py-[815] -DEBUG-Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+2019-09-06 17:04:53,482 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:53,489 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,489 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,549 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?caseNum=arn_query_case_001&title=%E6%A0%B9%E6%8D%AEARN%E5%8F%B7%E6%9F%A5%E8%AF%A2ARN%E4%BF%A1%E6%81%AF-%E4%BB%93%E5%BA%93%E5%AD%98%E5%9C%A8&method=get&host=https%3A%2F%2Fideas_pda_sit.jusdaglobal.com&url=%2Fpda%2Farn%2Freceived&headers=Content-Type&data=warehouseId&data=arnCode&assert=code&assert=msg HTTP/1.1" 200 59
+2019-09-06 17:04:53,688 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:53,695 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,695 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,740 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?caseNum=arn_query_case_002&title=%E6%A0%B9%E6%8D%AEARN%E5%8F%B7%E6%9F%A5%E8%AF%A2ARN%E4%BF%A1%E6%81%AF-%E4%BB%93%E5%BA%93%E4%B8%8D%E5%AD%98%E5%9C%A8&method=get&host=https%3A%2F%2Fideas_pda_sit.jusdaglobal.com&url=%2Fpda%2Farn%2Freceived&headers=Content-Type&data=warehouseId&data=arnCode&assert=code&assert=msg HTTP/1.1" 200 59
+2019-09-06 17:04:53,802 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:53,809 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,809 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,854 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?caseNum=arn_query_case_003&title=%E6%A0%B9%E6%8D%AEARN%E5%8F%B7%E6%9F%A5%E8%AF%A2ARN%E4%BF%A1%E6%81%AF-%E4%BB%93%E5%BA%93%E4%B8%8D%E5%AD%98%E5%9C%A8&method=get&host=https%3A%2F%2Fideas_pda_sit.jusdaglobal.com&url=%2Fpda%2Farn%2Freceived&headers=Content-Type&data=warehouseId&data=arnCode&assert=code&assert=msg HTTP/1.1" 200 59
+2019-09-06 17:04:53,913 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:53,919 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,919 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:53,965 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?caseNum=arn_query_case_004&title=%E6%A0%B9%E6%8D%AEARN%E5%8F%B7%E6%9F%A5%E8%AF%A2ARN%E4%BF%A1%E6%81%AF-%E4%BB%93%E5%BA%93%E4%B8%8D%E5%AD%98%E5%9C%A8&method=get&host=https%3A%2F%2Fideas_pda_sit.jusdaglobal.com&url=%2Fpda%2Farn%2Freceived&headers=Content-Type&data=warehouseId&data=arnCode&assert=code&assert=msg HTTP/1.1" 200 59
+2019-09-06 17:04:54,027 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:54,033 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:54,033 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:54,081 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/arn/received?caseNum=arn_query_case_005&title=%E6%A0%B9%E6%8D%AEARN%E5%8F%B7%E6%9F%A5%E8%AF%A2ARN%E4%BF%A1%E6%81%AF-%E4%BB%93%E5%BA%93%E4%B8%8D%E5%AD%98%E5%9C%A8&method=get&host=https%3A%2F%2Fideas_pda_sit.jusdaglobal.com&url=%2Fpda%2Farn%2Freceived&headers=Content-Type&data=warehouseId&data=arnCode&assert=code&assert=msg HTTP/1.1" 200 59
+2019-09-06 17:04:54,173 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:54,179 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:54,179 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:55,054 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12054
+2019-09-06 17:04:55,114 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:55,119 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:55,119 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:55,227 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/arn/page?current=1&size=20&warehouseId=1040 HTTP/1.1" 200 12054
+2019-09-06 17:04:55,289 - connectionpool.py-[396] -DEBUG-https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 120
+2019-09-06 17:04:55,295 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+
+2019-09-06 17:04:55,295 - logger.py-[31] -INFO-请求地址：https://ideas_pda_sit.jusdaglobal.com/pda/login?local=zh
+测试请求方式:post
+测试数据：{'username': 'lonel', 'pwd': 123456, 'local': 'zh'}
+接口响应状态:200
+接口响应报文:{'code': 1, 'data': {'code': 'lonel', 'name': 'lonel', 'tk': 'F10ADDC7179C818DF05821087907BEC5'}, 'message': ''}
+

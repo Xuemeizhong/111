@@ -1,0 +1,141 @@
+{
+  "uid" : "d0c9fdd55dafc241",
+  "name" : "获取所有ARN单",
+  "fullName" : "case.test_arn_manager.TestArnManager#test_arn_manager_list",
+  "historyId" : "528cf7efa4ceea407296b3864abb9fce",
+  "time" : {
+    "start" : 1568770986624,
+    "stop" : 1568770987141,
+    "duration" : 517
+  },
+  "description" : "根据仓库编码查询该仓库下的所有arn单",
+  "descriptionHtml" : "<p>根据仓库编码查询该仓库下的所有arn单</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770986063,
+      "stop" : 1568770986621,
+      "duration" : 558
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "根据仓库编码查询该仓库下的所有arn单",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a037a6ef615cc806",
+      "name" : "log",
+      "source" : "a037a6ef615cc806.txt",
+      "type" : "text/plain",
+      "size" : 1536
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ARN管理"
+  }, {
+    "name" : "feature",
+    "value" : "ARN模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_arn_manager"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArnManager"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "8252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_arn_manager"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'POST', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'warehouseId': 10400}, 'assert': {'code': 200}, 'response': None}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abb86b0cf6395b26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568770918910,
+        "stop" : 1568770919043,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "368cb2bd6b105aff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568703021459,
+        "stop" : 1568703021711,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "da3508a3a26b1e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702605899,
+        "stop" : 1568702606130,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "ac2319a369ecec3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702497124,
+        "stop" : 1568702497526,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "e814ed10168ab3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702060103,
+        "stop" : 1568702060412,
+        "duration" : 309
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ARN管理" ]
+  },
+  "source" : "d0c9fdd55dafc241.json",
+  "parameterValues" : [ "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'POST', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'warehouseId': 10400}, 'assert': {'code': 200}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

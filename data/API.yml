@@ -1,0 +1,99 @@
+#pda host地址
+host: https://ideas_pda_sit.jusdaglobal.com
+
+#headers
+headers:
+  Content-Type: application/json;charset=utf-8
+
+code: 1040
+
+#==================数据字典及系统枚举==================
+#数据字典
+data_dict: /pda/data-dict/list
+#任务类型
+sys_enum: /pda/enum/list
+
+#==================登录功能==================
+#登录接口
+login: /pda/login
+#获取站点
+site: /pda/sit/list
+#获取仓库
+warehouse: /pda/warehouse/list
+#==================主菜单==================
+#获取主菜单
+menu: /pda/menu/list
+
+#==================我的任务==================
+#任务列表
+task_list: /pda/my-task/list
+#放弃任务
+task_give_up: /pda/my-task/give-up
+#==================ARN单管理==================
+#查询该仓库所有的ARN单
+arn_list: /pda/arn/page
+#据ARN单号查询ARN信息
+arn_query: /pda/arn/received
+#获取委托方
+current_org: /pda/business-org/current
+#获取项目
+current_pro: /pda/project/current
+#arn状态查询
+anr_status: /pda/arn/status
+#货币类型
+currency_list: /pda/currency/list
+#货品类型
+item_type: /pda/item-type/list
+
+#=================ARN单作业状态，新品测量接口===================
+#获取料五项
+get_five_items: /pda/item/material
+#获取货品信息
+get_goods_info: /pda/item/unit/bar-code
+#获取单位级别
+get_unit_level: /pda/enum/list?local=zh
+#获取件型
+get_part_type: /pda/enum/list?local=zh
+#获取获取单位名称
+get_unit_name: /pda/enum/list?local=zh
+#新品测量-获取货品分类
+get_goods_type: /pda/item-type/list
+#新品测量-获取存储分类
+get_storage_type: /pda/data-dict/list?local=zh
+#新品测量-获取物流类型分类
+get_logistics_type: /pda/enum/list?local=zh
+#新品测量-获取币种
+get_currency: /pda/currency/list
+#新品测量-获取批次跟踪
+get_lot_tracking: /pda/lot-tracking/list
+#新品测量-保存包装单位
+save_package_unit: /pda/package-unit
+#新品测量-提交
+measure_new_item: /pda/arn/measure-new-item
+
+
+#==================收货登记—按货品==================
+#根据ARN单号查询
+arn_search: /pda/arn/search/page
+#查询所有未收货登记完成的ARN列表
+register_arn_list: /pda/un-receive/arn/page
+#查询ARN是否允许收货
+register_arn_boole: /pda/arn/received
+#货品查询列表
+goods_list: /pda/arn/item/list
+#查询货品信息
+good_info: /pda/arn/item
+#收货登记
+register_receive: /pda/arn/receive-register
+#查看料五项
+material_five: /pda/arn/item/material
+#验证库位
+verify_location: /pda/bin/validate
+
+
+
+
+
+#==================盘点管理==================#
+
+

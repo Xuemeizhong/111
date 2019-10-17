@@ -1,0 +1,9 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：get
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'tasl_type_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'WmsTaskType'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "GET /pda/enum/list?enumType=WmsTaskType HTTP/1.1" 200 867
+[32mINFO    [0m root:send_all.py:14 请求方式：post
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/json;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'caseNum': 'task_list_002', 'title': '获取任务列表-根据类型查找', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': 'MV_MOVE', 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/my-task/list?currentPage=1&size=20&warehouseId=1040&workAreaId= HTTP/1.1" 200 80
+[32mINFO    [0m root:task.py:76 接口请求放回结果：{'code': 1, 'data': {'list': [], 'pages': 1, 'total': 0}, 'message': ''}

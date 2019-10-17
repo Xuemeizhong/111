@@ -1,0 +1,138 @@
+{
+  "uid" : "1c4b070e0dee15c3",
+  "name" : "ARN单可操作业务",
+  "fullName" : "case.test_arn_manager.TestArnManager#test_arn_manager_status",
+  "historyId" : "3b666721570d7255b3775fad9c63de9b",
+  "time" : {
+    "start" : 1568770986729,
+    "stop" : 1568770986990,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568770986063,
+      "stop" : 1568770986619,
+      "duration" : 556
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f74eab9fd840f56d",
+      "name" : "log",
+      "source" : "f74eab9fd840f56d.txt",
+      "type" : "text/plain",
+      "size" : 712
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ARN模块"
+  }, {
+    "name" : "tag",
+    "value" : "ARN管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_arn_manager"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArnManager"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "6276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_arn_manager"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/status', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR171019000013'}}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9dde385cea8a49c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568770919461,
+        "stop" : 1568770919586,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "ce1930976b4fbf4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568703022306,
+        "stop" : 1568703022433,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "c5a654283b72b29d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702606793,
+        "stop" : 1568702606995,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "7016b4788b1e5f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702498030,
+        "stop" : 1568702498284,
+        "duration" : 254
+      }
+    }, {
+      "uid" : "71d33eb236bd09ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568702060991,
+        "stop" : 1568702061180,
+        "duration" : 189
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ARN管理" ]
+  },
+  "source" : "1c4b070e0dee15c3.json",
+  "parameterValues" : [ "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/status', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR171019000013'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

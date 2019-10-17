@@ -1,0 +1,41 @@
+site:
+  - caseNum: site_list_001
+    title: 获取站点信息
+    method: get
+    host: ${host}
+    url: ${site}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data: ~
+    assert:
+      code: 200
+      msg: ARN已经收货入账
+    response: ~
+
+warehouse:
+  - caseNum: site_list_001
+    title: 获取站点信息
+    method: get
+    host: ${host}
+    url: ${warehouse}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data: ~
+    assert:
+      code: 200
+      msg: ARN已经收货入账
+    response: ~
+
+menu:
+  - caseNum: site_list_001
+    title: 获取站点信息
+    method: get
+    host: ${host}
+    url: ${menu}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data: ~
+    assert:
+      code: 200
+      msg: ARN已经收货入账
+    response: ~

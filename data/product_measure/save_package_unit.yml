@@ -1,0 +1,33 @@
+save_package:
+  -
+    caseNum: save_package_unit_001
+    title: 新品测量-保存包装单位
+    method: post
+    host: ${host}
+    url: ${save_package_unit}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    data:
+      itemId: 80979
+      barCode: ZXCVB
+      pieceType: SMALL
+      unit: PCS
+      unitLevel: PCS
+      convertFigure: 1
+      palletQuantity: 1
+      length: 1
+      width: 1
+      height: 1
+      grossWeight: 1
+      netWeight: 1
+      beReceive: true
+      beSorting: false
+      beStorageUnit: true
+      beBaseUnit: true
+      beDefaultStockUnit: true
+      beDefaultReceiveUnit: false
+      bePackageUnit: false
+      unitId: 85107
+    assert:
+      code: 1
+    response:

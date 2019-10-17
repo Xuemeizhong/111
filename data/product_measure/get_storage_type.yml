@@ -1,0 +1,14 @@
+storage_type:
+  -
+    caseNum: get_storage_type_001
+    title: 新品测量-获取存储分类
+    method: get
+    host: ${host}
+    url: ${get_storage_type}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      dataType: ITEM_STORE_TYPE
+    assert:
+      dataValue: 母婴用品
+    response:

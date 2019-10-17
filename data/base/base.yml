@@ -1,0 +1,138 @@
+#系统枚举
+sys_enum:
+#获取任务类型
+-
+  caseNum: sys_enum_query_001
+  title: 获取任务类型
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: WmsTaskType
+#获取状态列表
+-
+  caseNum: sys_enum_query_002
+  title: 获取状态列表
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: WmsArnStatus
+#获取上架状态列表
+-
+  caseNum: sys_enum_query_003
+  title: 获取上架状态列表
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: WmsArnShelvesStauts  
+-
+  caseNum: sys_enum_query_004
+  title: 获取物流类型
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: ItemLogisticsType  
+
+-
+  caseNum: sys_enum_query_005
+  title: 获取件型
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: PieceType 
+
+-
+  caseNum: sys_enum_query_006
+  title: 获取单位名称
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: PackageUnitType 
+
+-
+  caseNum: sys_enum_query_007
+  title: 获取单位级别
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: PackageUnitLevel 
+
+-
+  caseNum: sys_enum_query_008
+  title: 查询容器类型
+  method: get
+  host: ${host}
+  url: ${sys_enum}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    enumType: ConveyanceTypes 
+
+  
+
+data_dict:    
+-
+  caseNum: data_dict_001
+  title: 获取存储分类列表
+  method: get
+  host: ${host}
+  url: ${data_dict}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    local: zh
+    dataType: ITEM_STORE_TYPE   
+
+#获取委托方
+current_org:
+- 
+  caseNum: current_query_of_org
+  title: 获取委托方
+  method: get
+  host: ${host}
+  url: ${current_org}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    warehouseId: ${code}
+
+#获取项目
+current_pro:
+- 
+  caseNum: current_query_of_pro
+  title: 获取项目
+  method: get
+  host: ${host}
+  url: ${current_pro}
+  headers:
+    Content-Type: application/x-www-form-urlencoded;charset=utf-8
+  data:
+    warehouseId: ${code}

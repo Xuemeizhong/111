@@ -1,0 +1,99 @@
+{
+  "uid" : "b5cfa8cc2d7a9ddd",
+  "name" : "根据ARN单查询",
+  "fullName" : "case.test_arn_manager.TestArnManager#test_arn_manager_query",
+  "historyId" : "32112a997e7c2629f042a3c29c71af80",
+  "time" : {
+    "start" : 1568702604782,
+    "stop" : 1568702604895,
+    "duration" : 113
+  },
+  "description" : "根据ARN单查询",
+  "descriptionHtml" : "<p>根据ARN单查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1568702603792,
+      "stop" : 1568702604779,
+      "duration" : 987
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "根据ARN单查询",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17f7dbbf6e2b3a84",
+      "name" : "log",
+      "source" : "17f7dbbf6e2b3a84.txt",
+      "type" : "text/plain",
+      "size" : 1564
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ARN模块"
+  }, {
+    "name" : "tag",
+    "value" : "ARN管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_arn_manager"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestArnManager"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "1212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_arn_manager"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}"
+  }, {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ARN管理" ]
+  },
+  "source" : "b5cfa8cc2d7a9ddd.json",
+  "parameterValues" : [ "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+}

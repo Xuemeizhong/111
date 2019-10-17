@@ -1,0 +1,82 @@
+measure_new_item:
+  -
+    caseNum: measure_new_item_001
+    title: 新品测量-提交,同一料号体系下货品编号不能重复
+    method: post
+    host: ${host}
+    url: ${measure_new_item}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    data:
+      id: 80979
+      name: ZXCVB
+      enName: ZXCVB
+      brand: ZXCVB
+      spec: ZXCVB
+      itemTypeId: 1660
+      storageType: 家用电器
+      logisticType: 普通
+      goodsValue: 200
+      currencyId: 100
+      taxRate: 80%
+      hsCode: QWERT
+      snControl: false
+      snVerifyExpr:
+      snControlExpr:
+      validPeriodDays: 7
+      alertLeadingDays: 7
+      lotTrackingInfoId: 1360
+      virtualItemCoding: false
+      beWholePackageShipping: false
+      beCustomsBroker: false
+      beBom: true
+      newItem: false
+      supplierName: 123456
+      supplierCoding: ZXCVB
+      codingSystemName: 烟台飞虎乐购-料号体系
+      customerName: 0104-X
+      customerCoding: BN180A29
+
+    assert:
+      code: 1
+    response:
+
+  - caseNum: measure_new_item_001
+    title: 新品测量-提交,货品名称为sy002的货品，提交成功
+    method: post
+    host: ${host}
+    url: ${measure_new_item}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    data:
+      id: 82384
+      name: sy002
+      enName:
+      brand:    #brand品牌
+      spec:     #spec:规格
+      itemTypeId: 1660
+      storageType: 母婴用品
+      logisticType: 普通
+      goodsValue: 200
+      currencyId: 100
+      taxRate: 80%
+      hsCode: QWERT,
+      snControl: false
+      snVerifyExpr:
+      snControlExpr:
+      validPeriodDays: 7
+      alertLeadingDays: 7
+      lotTrackingInfoId: 1360
+      virtualItemCoding: false
+      beWholePackageShipping: false
+      beCustomsBroker: false
+      beBom: true
+      newItem: false
+      supplierName: 123456
+      supplierCoding: ZXCVB,
+      codingSystemName: 烟台飞虎乐购-料号体系
+      customerName: 0104-X
+      customerCoding: BN180A29
+    assert:
+      code: 1
+    response:

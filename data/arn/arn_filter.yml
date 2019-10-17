@@ -1,0 +1,74 @@
+filter:
+-
+    caseNum: arn_list_of_filter_001
+    title: ARN管理-高级查询-根据条件查询
+    method: post
+    host: ${host}
+    url: ${arn_list}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      current: 1
+      size: 20
+      #仓库编码
+      warehouseId: ${code} 
+    data:
+      arnCode: 
+      #预计达到时间
+      planStartArruveTime:
+      planEndArruveTime:
+      #状态
+      status: 生效
+      #上架状态
+      putawayStatus: 上架完成
+      #委托方
+      businessOrgid: #烟台飞虎乐购信息有限公司
+      #项目
+      projectId: #飞虎乐购
+      #客户订单类型
+      customerBillType:
+      #客户单号 
+      customerBillCode:
+      #业务单号
+      relatedOrderCode: 
+      #
+      carrier:
+      driver: 
+      desciption:
+
+-
+    caseNum: arn_list_of_filter_002
+    title: ARN管理-高级查询-根据条件查询
+    method: post
+    host: ${host}
+    url: ${arn_list}
+    headers:
+      Content-Type: application/json;charset=utf-8
+    parameters:
+      current: 1
+      size: 20
+      #仓库编码
+      warehouseId: ${code} 
+    data:
+      arnCode: WAR190828000001
+      #预计达到时间
+      planStartArruveTime:
+      planEndArruveTime:
+      #状态
+      status: 生效
+      #上架状态
+      putawayStatus: 上架中
+      #委托方
+      businessOrgid: 烟台飞虎乐购信息有限公司
+      #项目
+      projectId: 飞虎乐购
+      #客户订单类型
+      customerBillType:
+      #客户单号 
+      customerBillCode:
+      #业务单号
+      relatedOrderCode: 
+      #
+      carrier:
+      driver: 
+      desciption: 

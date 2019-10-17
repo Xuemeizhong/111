@@ -1,0 +1,103 @@
+{
+  "uid" : "50290067f11e0187",
+  "name" : "根据ARN单号获取数据",
+  "fullName" : "case.test_register_of_goods.TestRegisterOfGoods#test_arn_receive",
+  "historyId" : "c62243af3a307d2493eb9f3b7dcebe21",
+  "time" : {
+    "start" : 1570521161151,
+    "stop" : 1570521161447,
+    "duration" : 296
+  },
+  "description" : "根据ARN单查询",
+  "descriptionHtml" : "<p>根据ARN单查询</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 == 1",
+  "statusTrace" : "self = <case.test_register_of_goods.TestRegisterOfGoods object at 0x000001C85EEC7588>, login = <Response [200]>\nsearch_data = {'caseNum': 'arn_search_list_001', 'data': {'arnCode': None, 'type': 2}, 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'host': 'https://ideas_pda_sit.jusdaglobal.com', ...}\nreceive_data = {'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'caseNum': 'arn_query_case_001', 'data': {'arnCode': 'WAR190828000001', 'warehouseId': '1040'}, 'headers': {'Content-Type': 'application/json;charset=utf-8'}, ...}\n\n    @allure.title('根据ARN单号获取数据')\n    @pytest.mark.parametrize('login',yaml_replace_for_filter('login.yml'),indirect=True) #登录依赖测试案例\n    @pytest.mark.parametrize(\"search_data\", yaml_replace_for_filter('arn_search.yml',dir_case='receive_good', filter='search_list'))\n    @pytest.mark.parametrize(\"receive_data\", yaml_replace_for_filter('arn.yml',dir_case='arn', filter='query',index=1))\n    def test_arn_receive(self,login,search_data,receive_data):\n        \"\"\"根据ARN单查询\"\"\"\n        search_list = RegisterOfGoodsService.arn_search_list(search_data)\n        logger.info(f'接口返回值：{search_list.json()[\"data\"][\"list\"]}')\n    \n        #result = RegisterOfGoodsService.arn_receive(data)\n        result = ArnManagerService.arn_query(receive_data)\n        assert result.status_code == 200\n    \n>       assert result.json()['code'] == 1\nE       assert 0 == 1\n\ncase\\test_register_of_goods.py:35: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1570521160778,
+      "stop" : 1570521161149,
+      "duration" : 371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "根据ARN单查询",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0 == 1",
+    "statusTrace" : "self = <case.test_register_of_goods.TestRegisterOfGoods object at 0x000001C85EEC7588>, login = <Response [200]>\nsearch_data = {'caseNum': 'arn_search_list_001', 'data': {'arnCode': None, 'type': 2}, 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'host': 'https://ideas_pda_sit.jusdaglobal.com', ...}\nreceive_data = {'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'caseNum': 'arn_query_case_001', 'data': {'arnCode': 'WAR190828000001', 'warehouseId': '1040'}, 'headers': {'Content-Type': 'application/json;charset=utf-8'}, ...}\n\n    @allure.title('根据ARN单号获取数据')\n    @pytest.mark.parametrize('login',yaml_replace_for_filter('login.yml'),indirect=True) #登录依赖测试案例\n    @pytest.mark.parametrize(\"search_data\", yaml_replace_for_filter('arn_search.yml',dir_case='receive_good', filter='search_list'))\n    @pytest.mark.parametrize(\"receive_data\", yaml_replace_for_filter('arn.yml',dir_case='arn', filter='query',index=1))\n    def test_arn_receive(self,login,search_data,receive_data):\n        \"\"\"根据ARN单查询\"\"\"\n        search_list = RegisterOfGoodsService.arn_search_list(search_data)\n        logger.info(f'接口返回值：{search_list.json()[\"data\"][\"list\"]}')\n    \n        #result = RegisterOfGoodsService.arn_receive(data)\n        result = ArnManagerService.arn_query(receive_data)\n        assert result.status_code == 200\n    \n>       assert result.json()['code'] == 1\nE       assert 0 == 1\n\ncase\\test_register_of_goods.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "334ce56eb3bf8c3c",
+      "name" : "log",
+      "source" : "334ce56eb3bf8c3c.txt",
+      "type" : "text/plain",
+      "size" : 12524
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "按货品收获登记"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_register_of_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterOfGoods"
+  }, {
+    "name" : "host",
+    "value" : "CDoffice0104"
+  }, {
+    "name" : "thread",
+    "value" : "10608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_register_of_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 1}, 'assert': {'code': 200}, 'response': None}"
+  }, {
+    "name" : "receive_data",
+    "value" : "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}"
+  }, {
+    "name" : "search_data",
+    "value" : "{'caseNum': 'arn_search_list_001', 'title': '获取ARN选择列表', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/search/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': None, 'type': 2}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50290067f11e0187.json",
+  "parameterValues" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 1}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'caseNum': 'arn_search_list_001', 'title': '获取ARN选择列表', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/search/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': None, 'type': 2}}" ]
+}

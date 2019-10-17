@@ -1,0 +1,16 @@
+get_five_items:
+  -
+    caseNum: get_five_items_001
+    title: 根据货品/包装条码获取料五项信息
+    method: get
+    host: ${host}
+    url: ${get_five_items}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      itemBarCode: 123456
+    assert:
+      code: 200
+      itemCode: 123456
+      codingSystemName: 正达-烟台
+    response:

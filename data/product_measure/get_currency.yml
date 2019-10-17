@@ -1,0 +1,13 @@
+currency:
+  -
+    caseNum: get_currency_001
+    title: 新品测量-获取币种
+    method: get
+    host: ${host}
+    url: ${get_currency}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+    assert:
+      name: Australian Dollar rates
+    response:

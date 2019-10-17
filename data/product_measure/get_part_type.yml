@@ -1,0 +1,15 @@
+part_type:
+  -
+    caseNum: get_part_type_001
+    title: 新品测量-获取件型
+    method: get
+    host: ${host}
+    url: ${get_part_type}
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=utf-8
+    data:
+      enumType: PieceType
+
+    assert:
+      enumName: 大件
+    response:

@@ -1,0 +1,509 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CDoffice0104",
+    "children" : [ {
+      "name" : "8892-MainThread",
+      "children" : [ {
+        "name" : "获取任务类型",
+        "uid" : "a5ec58b504847fae",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987156,
+          "stop" : 1568770987208,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsTaskType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取任务列表&&条件查询",
+        "uid" : "c7bb1af121d5cce9",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770989058,
+          "stop" : 1568770989203,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'task_list_002', 'title': '获取任务列表-根据类型查找', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': '库内移位', 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取所有ARN单",
+        "uid" : "bc8f0b2ce6013ecc",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986651,
+          "stop" : 1568770987139,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'POST', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'warehouseId': '1040'}, 'assert': {'code': 200}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "查询容器类型",
+        "uid" : "2f82e43b50fe2d19",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987216,
+          "stop" : 1568770987270,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_008', 'title': '查询容器类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'ConveyanceTypes'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取仓库",
+        "uid" : "c000a1463792675d",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987365,
+          "stop" : 1568770987433,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'site_list_001', 'title': '获取站点信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/warehouse/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取单位名称",
+        "uid" : "a1379cad2c7c132e",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987932,
+          "stop" : 1568770989046,
+          "duration" : 1114
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_unit_name_001', 'title': '新品测量-获取单位名称', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'PackageUnitType'}, 'assert': {'enumName': 'Bag'}, 'response': None}" ]
+      }, {
+        "name" : "获取获取委托方",
+        "uid" : "7b5c661409501a75",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987282,
+          "stop" : 1568770987350,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'current_query_of_org', 'title': '获取委托方', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/business-org/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "通过货品条码获取料五项",
+        "uid" : "6a03f70377c02313",
+        "parentUid" : "ab8e54cb01e15d4a6d5543d729c20b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987444,
+          "stop" : 1568770987917,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'get_five_items_001', 'title': '根据货品/包装条码获取料五项信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/item/material', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'itemBarCode': 123456}, 'assert': {'code': 200, 'itemCode': 123456, 'codingSystemName': '正达-烟台'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      } ],
+      "uid" : "ab8e54cb01e15d4a6d5543d729c20b97"
+    }, {
+      "name" : "8252-MainThread",
+      "children" : [ {
+        "name" : "获取任务类型",
+        "uid" : "4caea8fb5814bed8",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988260,
+          "stop" : 1568770988309,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsTaskType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取项目",
+        "uid" : "50efbbc45beacf60",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987239,
+          "stop" : 1568770987295,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'current_query_of_pro', 'title': '获取项目', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/project/current', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取数据字典",
+        "uid" : "e022489efd5b1de2",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987306,
+          "stop" : 1568770987360,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'data_dict_001', 'title': '获取存储分类列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/data-dict/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'dataType': 'ITEM_STORE_TYPE'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-提交货品名称sy002，提交成功",
+        "uid" : "26b4c4dd13468f25",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988088,
+          "stop" : 1568770988245,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'measure_new_item_001', 'title': '新品测量-提交,货品名称为sy002的货品，提交成功', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/measure-new-item', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'id': 82384, 'name': 'sy002', 'enName': None, 'brand': None, 'spec': None, 'itemTypeId': 1660, 'storageType': '母婴用品', 'logisticType': '普通', 'goodsValue': 200, 'currencyId': 100, 'taxRate': '80%', 'hsCode': 'QWERT,', 'snControl': False, 'snVerifyExpr': None, 'snControlExpr': None, 'validPeriodDays': 7, 'alertLeadingDays': 7, 'lotTrackingInfoId': 1360, 'virtualItemCoding': False, 'beWholePackageShipping': False, 'beCustomsBroker': False, 'beBom': True, 'newItem': False, 'supplierName': 123456, 'supplierCoding': 'ZXCVB,', 'codingSystemName': '烟台飞虎乐购-料号体系', 'customerName': '0104-X', 'customerCoding': 'BN180A29'}, 'assert': {'code': 1}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取货品分类",
+        "uid" : "ecbc0a489d9dc5c0",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987567,
+          "stop" : 1568770987640,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'get_goods_type_001', 'title': '新品测量-获取货品分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/item-type/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'itemCodingSystemId': 3180}, 'assert': {'name': '家电'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取单位级别",
+        "uid" : "e94f3fb688a58be",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987494,
+          "stop" : 1568770987554,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_unit_level_001', 'title': '新品测量-获取单位级别', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'PackageUnitLevel'}, 'assert': {'enumName': '箱'}, 'response': None}" ]
+      }, {
+        "name" : "获取所有ARN单",
+        "uid" : "d0c9fdd55dafc241",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986624,
+          "stop" : 1568770987141,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'POST', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'warehouseId': 10400}, 'assert': {'code': 200}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取状态列表",
+        "uid" : "b96cb74f08b02a91",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987177,
+          "stop" : 1568770987228,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_002', 'title': '获取状态列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsArnStatus'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-保存包装单位",
+        "uid" : "6fcb938c2bc35840",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987748,
+          "stop" : 1568770988076,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'save_package_unit_001', 'title': '新品测量-保存包装单位', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/package-unit', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'itemId': 80979, 'barCode': 'ZXCVB', 'pieceType': 'SMALL', 'unit': 'PCS', 'unitLevel': 'PCS', 'convertFigure': 1, 'palletQuantity': 1, 'length': 1, 'width': 1, 'height': 1, 'grossWeight': 1, 'netWeight': 1, 'beReceive': True, 'beSorting': False, 'beStorageUnit': True, 'beBaseUnit': True, 'beDefaultStockUnit': True, 'beDefaultReceiveUnit': False, 'bePackageUnit': False, 'unitId': 85107}, 'assert': {'code': 1}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取物流类型",
+        "uid" : "b5fdd42c04e6297c",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987653,
+          "stop" : 1568770987729,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_logistics_type_001', 'title': '新品测量-获取存储分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'ItemLogisticsType'}, 'assert': {'enumName': '普通'}, 'response': None}" ]
+      }, {
+        "name" : "根据itemId获取货品信息",
+        "uid" : "8f1b5cb3d17bfd1f",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987392,
+          "stop" : 1568770987478,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'get_goods_info_001', 'title': '根据itemId获取货品信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/item/unit/bar-code', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': 1040, 'itemId': 43067}, 'assert': {'storageType': '服饰鞋靴'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "登录功能",
+        "uid" : "9351004f53d29da1",
+        "parentUid" : "6e31bc9e0cde8de85e319fa281655100",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987376,
+          "stop" : 1568770987376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      } ],
+      "uid" : "6e31bc9e0cde8de85e319fa281655100"
+    }, {
+      "name" : "1056-MainThread",
+      "children" : [ {
+        "name" : "获取任务列表&&条件查询",
+        "uid" : "8512730d06ce3e10",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988097,
+          "stop" : 1568770988254,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'task_list_001', 'title': '获取任务列表', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': None, 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取site站点",
+        "uid" : "503aeda0cecafaba",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987305,
+          "stop" : 1568770987381,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'site_list_001', 'title': '获取站点信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/sit/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-提交货品名称ZXCVB，提交成功",
+        "uid" : "aad20988be69856b",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987817,
+          "stop" : 1568770988083,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'measure_new_item_001', 'title': '新品测量-提交,同一料号体系下货品编号不能重复', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/measure-new-item', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'id': 80979, 'name': 'ZXCVB', 'enName': 'ZXCVB', 'brand': 'ZXCVB', 'spec': 'ZXCVB', 'itemTypeId': 1660, 'storageType': '家用电器', 'logisticType': '普通', 'goodsValue': 200, 'currencyId': 100, 'taxRate': '80%', 'hsCode': 'QWERT', 'snControl': False, 'snVerifyExpr': None, 'snControlExpr': None, 'validPeriodDays': 7, 'alertLeadingDays': 7, 'lotTrackingInfoId': 1360, 'virtualItemCoding': False, 'beWholePackageShipping': False, 'beCustomsBroker': False, 'beBom': True, 'newItem': False, 'supplierName': 123456, 'supplierCoding': 'ZXCVB', 'codingSystemName': '烟台飞虎乐购-料号体系', 'customerName': '0104-X', 'customerCoding': 'BN180A29'}, 'assert': {'code': 1}, 'response': None}" ]
+      }, {
+        "name" : "ARN高级查询-条件组合查询",
+        "uid" : "9ef4f74ce80d4ba4",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986663,
+          "stop" : 1568770987233,
+          "duration" : 570
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'arn_list_of_filter_002', 'title': 'ARN管理-高级查询-根据条件查询', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': 'WAR190828000001', 'planStartArruveTime': None, 'planEndArruveTime': None, 'status': '生效', 'putawayStatus': '上架中', 'businessOrgid': '烟台飞虎乐购信息有限公司', 'projectId': '飞虎乐购', 'customerBillType': None, 'customerBillCode': None, 'relatedOrderCode': None, 'carrier': None, 'driver': None, 'desciption': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "根据任务类型过滤任务列表",
+        "uid" : "93d5ce4abe96d382",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988272,
+          "stop" : 1568770988393,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'task_list_001', 'title': '获取任务列表', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': None, 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'tasl_type_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'WmsTaskType'}}" ]
+      }, {
+        "name" : "新品测量-获取批次跟踪属性",
+        "uid" : "7003d301f35ea646",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987745,
+          "stop" : 1568770987804,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_lot_tracking_001', 'title': '新品测量-获取批次跟踪属性', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/lot-tracking/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'name': '飞虎颜色'}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取件型",
+        "uid" : "c5809a1f6ef33623",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987494,
+          "stop" : 1568770987555,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_part_type_001', 'title': '新品测量-获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'PieceType'}, 'assert': {'enumName': '大件'}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取存储分类",
+        "uid" : "fb5d9146a629afc1",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987570,
+          "stop" : 1568770987639,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'get_storage_type_001', 'title': '新品测量-获取存储分类', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/data-dict/list?local=zh', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'dataType': 'ITEM_STORE_TYPE'}, 'assert': {'dataValue': '母婴用品'}, 'response': None}" ]
+      }, {
+        "name" : "新品测量-获取币种",
+        "uid" : "8bd19889b4ae3375",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987650,
+          "stop" : 1568770987730,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'get_currency_001', 'title': '新品测量-获取币种', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/currency/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'name': 'Australian Dollar rates'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取主菜单",
+        "uid" : "c8a6d8a902cf5e34",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987395,
+          "stop" : 1568770987478,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'site_list_001', 'title': '获取站点信息', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/menu/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': None, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取上架状态列表",
+        "uid" : "5a6ee3b24470de89",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987245,
+          "stop" : 1568770987294,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_003', 'title': '获取上架状态列表', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'WmsArnShelvesStauts'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "根据ARN单查询",
+        "uid" : "da06e6c7be658653",
+        "parentUid" : "571e116a10854df55881228f00081dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986589,
+          "stop" : 1568770986651,
+          "duration" : 62
+        },
+        "flaky" : true,
+        "parameters" : [ "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      } ],
+      "uid" : "571e116a10854df55881228f00081dc5"
+    }, {
+      "name" : "7532-MainThread",
+      "children" : [ {
+        "name" : "根据ARN单号获取数据",
+        "uid" : "789c0825be111859",
+        "parentUid" : "810dd805d03ca1f66bfbc029e9bb167d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1570521427496,
+          "stop" : 1570521428074,
+          "duration" : 578
+        },
+        "flaky" : true,
+        "parameters" : [ "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 1}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'arn_query_case_001', 'title': '根据ARN号查询ARN信息-仓库存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN已经收货入账'}, 'response': None}", "{'caseNum': 'arn_search_list_001', 'title': '获取ARN选择列表', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/search/page', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'current': 1, 'size': 20, 'warehouseId': '1040'}, 'data': {'arnCode': None, 'type': 2}}" ]
+      } ],
+      "uid" : "810dd805d03ca1f66bfbc029e9bb167d"
+    }, {
+      "name" : "6276-MainThread",
+      "children" : [ {
+        "name" : "ARN单可操作业务",
+        "uid" : "1c4b070e0dee15c3",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986729,
+          "stop" : 1568770986990,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '根据仓库编码查询该仓库下的所有arn单', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/status', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'warehouseId': '1040', 'arnCode': 'WAR171019000013'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取单位级别",
+        "uid" : "9f82d908a0cf4a",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988181,
+          "stop" : 1568770988238,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_007', 'title': '获取单位级别', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'PackageUnitLevel'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取件型",
+        "uid" : "9f59932b6e9d2305",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987076,
+          "stop" : 1568770987137,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_005', 'title': '获取件型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'PieceType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "根据ARN单查询",
+        "uid" : "1a97c9a5b3bf25c8",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770986623,
+          "stop" : 1568770986709,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'arn_query_case_002', 'title': '根据ARN号查询ARN信息-仓库不存在', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/arn/received', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'data': {'warehouseId': 104000, 'arnCode': 'WAR190828000001'}, 'assert': {'code': 200, 'msg': 'ARN单号不存在'}, 'response': None}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "获取物流类型",
+        "uid" : "f9ee5ff89b81ddc5",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987004,
+          "stop" : 1568770987064,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_004', 'title': '获取物流类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'ItemLogisticsType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      }, {
+        "name" : "根据任务类型过滤任务列表",
+        "uid" : "7723614eb4c81586",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770988254,
+          "stop" : 1568770988382,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'task_list_002', 'title': '获取任务列表-根据类型查找', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/my-task/list', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'currentPage': 1, 'size': 20, 'warehouseId': '1040', 'workAreaId': ''}, 'data': {'type': '库内移位', 'taskBillCode': None, 'customerCode': None, 'itemBarCode': None}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}", "{'caseNum': 'tasl_type_001', 'title': '获取任务类型', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'enumType': 'WmsTaskType'}}" ]
+      }, {
+        "name" : "获取单位名称",
+        "uid" : "fc8abedb4ce1a0e8",
+        "parentUid" : "0b89ed37c247afaf1854bcc25d4c2650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568770987150,
+          "stop" : 1568770988163,
+          "duration" : 1013
+        },
+        "flaky" : false,
+        "parameters" : [ "{'caseNum': 'sys_enum_query_006', 'title': '获取单位名称', 'method': 'get', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/enum/list', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'}, 'data': {'local': 'zh', 'enumType': 'PackageUnitType'}}", "{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}" ]
+      } ],
+      "uid" : "0b89ed37c247afaf1854bcc25d4c2650"
+    } ],
+    "uid" : "6d23e6368d18b8bec5ae7373310bdfa0"
+  } ]
+}

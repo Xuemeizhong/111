@@ -1,0 +1,5 @@
+[32mINFO    [0m root:send_all.py:14 请求方式：post
+[32mINFO    [0m root:send_all.py:15 请求头：{'Content-Type': 'application/json;charset=utf-8'}
+[32mINFO    [0m root:send_all.py:16 请求数据：{'name': '登录pda', 'method': 'post', 'host': 'https://ideas_pda_sit.jusdaglobal.com', 'url': '/pda/login', 'headers': {'Content-Type': 'application/json;charset=utf-8'}, 'parameters': {'local': 'zh'}, 'data': {'username': 'lonel', 'pwd': 123456}, 'assert': {'code': 200}, 'response': None}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:815 Starting new HTTPS connection (1): ideas_pda_sit.jusdaglobal.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 https://ideas_pda_sit.jusdaglobal.com:443 "POST /pda/login?local=zh HTTP/1.1" 200 60
